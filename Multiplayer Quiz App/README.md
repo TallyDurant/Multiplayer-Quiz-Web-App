@@ -1,10 +1,7 @@
-CITS3403 2020 - Online Quiz Platform  
+ Online Quiz Platform  
 
 Authors:
-Talin Taparia - 22298002
-Jason(Tsz Kin Lee) - 22294965
-Lewis Thomas - 22839346
-Gregory Edmonds - 21487148
+Talin Taparia 
         
 # Design and development of the application
 The Application has some few main functions for the user. these are Register, Log In, Take Quiz, View Quiz Attempts, Admin.
