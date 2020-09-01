@@ -1,0 +1,966 @@
+commit a6ed392936bfb1df52a0b9009886cae5f99fbfc0
+Merge: 1e2a16c dc708c1
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:50:20 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit 1e2a16ced0f97b036e9e126b492831afdc54dccd
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:50:14 2020 +0800
+
+    add comments and fix profile page
+
+commit dc708c1e5e0922ca5f49856d4a7a4595ab5464a7
+Merge: 1262634 fb383ba
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:49:40 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit 12626348eaa6ee92426b83f3d98d03eb5749deb6
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:49:25 2020 +0800
+
+    Create User Stories for last sprint.docx
+
+commit fb383ba241c7aaa011080769b6247c41d33bdc36
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 23:48:30 2020 +0800
+
+    Update main.css
+
+commit 0b094b17a58cfb944915f2b08df26b97e16d67aa
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:39:32 2020 +0800
+
+    admin views and deleted unneeded files
+
+commit 909e0abd642855e458a6f0cc7e65803048659133
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 23:33:40 2020 +0800
+
+    Update app.db
+
+commit 0c9529646972f067bb597dab23874aaa11b2d76e
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:26:28 2020 +0800
+
+    admin can see delete quiz
+
+commit 191f53e4e94062e1af9c996c20c6a813da912cb5
+Merge: 2ec0832 857b6f4
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:19:18 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit 2ec0832672301c02048a9acd41f956cab33e7325
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:19:14 2020 +0800
+
+    delete account added to profile
+
+commit 857b6f472d9bfeaaf59c77215cd83cf9fb9ebbc9
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:15:08 2020 +0800
+
+    Update result.html
+
+commit d29fccd567c30f8a01b3b72f9a12e5b22552996f
+Merge: 7948939 a9fd3b6
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:14:29 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit 7948939a883eba5c301fa63244ff91aa2ca43319
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:14:12 2020 +0800
+
+    update profile.html
+
+commit a9fd3b69909330e8282cc98f3511e16e51d28815
+Merge: e9d9c64 a8093f3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:13:56 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit e9d9c646e3db1b5e06e06ba568b2c4998ebe8d96
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:13:50 2020 +0800
+
+    re-add block head for create quiz page
+
+commit a8093f3569e2831cd584d5c6d586a231bb8787b5
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 23:09:41 2020 +0800
+
+    selenium file
+
+commit f111028221f74f9c5afddb59a91990cc1ae27c0b
+Merge: 8b679f6 853491e
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:04:12 2020 +0800
+
+    Merge branch 'frontendtakequiz' of https://github.com/lthomas21/Project2 into frontendtakequiz
+
+commit 8b679f6338f4d0792aed2b180cdab483f967d926
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 23:03:37 2020 +0800
+
+    profile page and assess quiz page
+
+commit 853491e0d21be40e689cd812d5ea449f0d3eff19
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 22:19:11 2020 +0800
+
+    minor changes
+
+commit 352d430533994f7c93bb2af1e815acde85b35770
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 21:32:23 2020 +0800
+
+    branch works
+
+commit d9f56b9c99c4c92b0c1028e0d3fb4a464d68277a
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 21:04:35 2020 +0800
+
+    added take quiz to backend
+
+commit 4c9ebc8924f4d1c60bc439f3b90ea94b96293628
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 19:08:59 2020 +0800
+
+    take quiz functionality on front end
+
+commit 714d85b7f74ab5403ecf991ff2afd33557a49d6b
+Merge: 69083e1 4888c61
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 16:57:15 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 69083e19e54e640f4dce376feff2c182ae7e7182
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 16:56:47 2020 +0800
+
+    admin authentication and jquery added to base
+
+commit 4888c6117327237f27b24f9da95a4e5245f26e80
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Mon May 25 14:01:58 2020 +0530
+
+    Update app.db
+
+commit 05e82a5ae1f8af17cb3fab2ba2d079ee15cd28a3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 16:09:42 2020 +0800
+
+    commit to add users and quizzes
+
+commit 8c48040e48476c450e39a0c53d896c619a58aa50
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 16:02:00 2020 +0800
+
+    restarting database worked
+
+commit b79683a4d1589f3c7725ec72b646a52571b2bde3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 15:46:29 2020 +0800
+
+    restarting database trial
+
+commit 086e61598b1042425c91e64aefd534c25b3286c5
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Mon May 25 12:24:43 2020 +0530
+
+    Update README.md
+
+commit 49b6d2b83389c2274764ab64ee08b10352bd387d
+Merge: df73ada 241f978
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 14:32:31 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit df73adae1c56eb7cbb217693c00dec7e54d2cf35
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 14:32:23 2020 +0800
+
+    added newquiz.js
+
+commit 241f978bb050fdb44d6da12810f5f0fa14bf7156
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Mon May 25 12:01:21 2020 +0530
+
+    Create requirements.txt
+
+commit 1c972bc736d9bec00b6495b5516633828ca2b475
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 12:56:59 2020 +0800
+
+    created assess quiz page
+
+commit 98cd58bed440cb9e86de26b2cd8691a60021375a
+Merge: 37b3f8e ce1213b
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 12:26:24 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 37b3f8ef3323344a92ea66ac4b786be2883e4303
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 12:26:18 2020 +0800
+
+    newquiz.js
+
+commit ce1213b231fcc7aa6d71abb87adf14c95131fbcd
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 12:12:29 2020 +0800
+
+    adding field to quizform field. use json to send data back
+
+commit afe09a40597495104b2b019bfcd698b00ef16a83
+Merge: 5127bc6 016001f
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 10:54:03 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 5127bc6b4fc89f1d5081d9f84b08596002315e01
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 25 10:53:43 2020 +0800
+
+    Update README.md
+
+commit 016001f04a2f6d02a5a6c2aa8cd26f6f523b36f3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 25 10:53:03 2020 +0800
+
+    take quiz class add for each question and box for each answer
+
+commit 48ad3500f804b0bcc94771fadf0ad236bfe5b154
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 01:12:20 2020 +0800
+
+    Update Scope of Work.docx
+
+commit 01df07313e8db553e21d5e88ea6b3dd2e13e3316
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Mon May 25 01:08:11 2020 +0800
+
+    Sprint 2 Users stories
+
+commit 8e3ff5607335cd8a2b94a1a78e622cd64e81db45
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 23:41:05 2020 +0800
+
+    Update routes.py
+
+commit d08b85cc6279dc817cd4b873336bf34edd028b09
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 23:35:57 2020 +0800
+
+    Update quizSelector.html
+
+commit 528d73e1499095ba29efd64cf140f9a3e1872ee9
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 23:29:00 2020 +0800
+
+    added javascript for taking quiz
+
+commit 2f980be852b764da7d4c651f9007500defed8c85
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 21:56:09 2020 +0800
+
+    take quiz button add
+
+commit a9bc15be1010efc1696637e71baacb075d15320d
+Merge: 4821a24 609ef1a
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 24 21:31:04 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 4821a2440b28567620111405229fcfcc3e2b039d
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 24 21:30:47 2020 +0800
+
+    Test file
+
+commit 609ef1a22feac909b233cec8279383e3557285c4
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 21:30:15 2020 +0800
+
+    add and delete user routes
+
+commit 8072e286887c2d6fe91f54299bc8f618e5e926ce
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 20:58:54 2020 +0800
+
+    Update README.md
+
+commit 22cff0c5d19b4a646a8bd2870b765154a80a5aab
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 20:56:03 2020 +0800
+
+    update page now fills form out when requested. need to work on the updating of form
+
+commit d9abaa261043f071ed1c1c6b83feb7e226963a06
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 18:50:00 2020 +0800
+
+    Revert "initial javascript for quiz"
+    
+    This reverts commit a09bddf9c917ce87c58df4e7f458d82b1f9a8eb9.
+
+commit 4bf47f592d1d00a41642de28bae4a3f293d6c57e
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 18:49:13 2020 +0800
+
+    Revert "Revert "Merge branch 'master' of https://github.com/lthomas21/Project2""
+    
+    This reverts commit 54ffe45b5d367a5e7560f6aa26596e7a49822d07.
+
+commit 54ffe45b5d367a5e7560f6aa26596e7a49822d07
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 18:44:23 2020 +0800
+
+    Revert "Merge branch 'master' of https://github.com/lthomas21/Project2"
+    
+    This reverts commit 36e8e7161a41c2d0b110607c562b20c9ef131abb, reversing
+    changes made to 58d8a387092ec2ebb06c9f8536e8cabd37cbb78a.
+
+commit a09bddf9c917ce87c58df4e7f458d82b1f9a8eb9
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 24 18:40:19 2020 +0800
+
+    initial javascript for quiz
+
+commit 36e8e7161a41c2d0b110607c562b20c9ef131abb
+Merge: 58d8a38 839905d
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 16:39:08 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 58d8a387092ec2ebb06c9f8536e8cabd37cbb78a
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 16:39:03 2020 +0800
+
+    start of edit route
+
+commit 839905debf24cc7a29e069d329e3e19524fd6c42
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sun May 24 13:21:49 2020 +0530
+
+    edited take quiz routes
+
+commit 90f74325ebf968d8d305781eea0a4408ac1f6c07
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 15:37:59 2020 +0800
+
+    added anchor tag to take quiz from selector
+
+commit 696bd0a8f90293a15f35a3a4c95db09d235c6907
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 15:33:15 2020 +0800
+
+    delete user and delete quiz
+
+commit 67d765e152741de8483a63e57160a0dfaed52d06
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 14:56:56 2020 +0800
+
+    take quiz back end and template completed
+
+commit 6a0c5d3aa02ba92803f4ad2ad5f373053f778df7
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 13:56:43 2020 +0800
+
+    create quiz backend working and incorporated into front end
+
+commit 330e4278aaebb01003f00cba0131f070b00279c1
+Merge: d29535f 4cddcc2
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 12:06:58 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit d29535f2aad85f409d8a7c55b5357e8355694818
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 24 12:06:53 2020 +0800
+
+    chane take quiz to quiz name instead of id
+
+commit 4cddcc29fc141b2426d238775c548aaa6cd7be62
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 24 11:43:54 2020 +0800
+
+    Update README.md
+
+commit ef87a88e22ede16225ea372d96cc36a2e286359c
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sun May 24 09:04:22 2020 +0530
+
+    add readme fiel
+
+commit bbead770b679d2e5f4fbbc9c3aa8589f1b6d6bbc
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 21:16:11 2020 +0530
+
+    Update takeQuiz.html
+
+commit ef3819df2d8cd0e2722bad2fbdf86aff9acc114d
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 21:01:32 2020 +0530
+
+    Redid take Quiz
+
+commit 298032e251c1b75c80871999766f46db09ed3673
+Merge: da536be ae62096
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 23 21:52:56 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit da536bea37f426d0f760e042fc1f8188e151413e
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 23 21:52:50 2020 +0800
+
+    update for result.html
+
+commit ae620967fd4c4a6a64af380327b47d67b21d1b29
+Merge: 61b39ee 19ef3d2
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 21:11:51 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 61b39ee814ec9888d18eacaab130ba1a0a54c548
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 21:11:45 2020 +0800
+
+    simple changes to add the question add to route
+
+commit 19ef3d29c35fbf5dac352a497b26756273d5d840
+Merge: 20123cc faa1479
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 23 21:07:43 2020 +0800
+
+    Merge branch 'aggreated-statistic'
+
+commit 20123cc939ee4f6aaf807e25f88f2a8cf227d8f7
+Merge: 499da68 2722f86
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 20:16:41 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 499da685fc3ecdef01243efb2ddf147058f5776f
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 20:14:55 2020 +0800
+
+    creat quiz is now working for adding new quiz, 1 question and answers
+
+commit 2722f86b7a3ad024f0126cb64db5ffd0863cce4f
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 17:10:02 2020 +0530
+
+    quiz creation
+
+commit e5fc3d68d73033d3415e087b99290c40e2270e76
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 15:22:11 2020 +0530
+
+    Added take Quiz, edited take Quiz.html
+
+commit faa14795197bdf4fccde3c26284792c286f261fc
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 23 17:22:05 2020 +0800
+
+    Aggregated results
+
+commit a6cc7d8681fbd299929bc8138ad33aaf4ae17081
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 13:56:49 2020 +0530
+
+    Update routes.py
+
+commit 05426a20fbabec514100c47d2e198efed86bc125
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Sat May 23 13:55:00 2020 +0530
+
+    question Attempt relationship
+
+commit 95de8aa94a163a2fe7409b1ddce5d186006de330
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 13:16:22 2020 +0800
+
+    creating new one question quiz start
+
+commit 7c0b9753be3d13ff289664e07e1b076081405ffc
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sat May 23 10:32:00 2020 +0800
+
+    start on create quiz and questions pages
+
+commit 81c127966c59b7bfa5ff9b7b8e039636be7b202b
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 22:54:19 2020 +0800
+
+    Update index.html
+
+commit 833c52dc03d41a7ba0a4d446f8c54ca23f7c4a40
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 22:44:23 2020 +0800
+
+    Update index.html
+
+commit d593a4f86d335d4bf95da922167e77d33020ad8b
+Merge: 0c2332c 6a63cf4
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 19:33:12 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 0c2332ceef6bb6b563fc1d77ecb642ebdec119e6
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 19:33:04 2020 +0800
+
+    edited home page
+
+commit 6a63cf4ecc2c0ec9c1300106acca138892a75405
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 18:46:04 2020 +0800
+
+    added answer key and quiz relationship
+
+commit 74073e7564ff39d8c12bc157979d436d1b6b95ef
+Merge: 5244e9a 3b827ec
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 18:40:20 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 5244e9a3218fe1087f69bdc97996c0a257a5dbbf
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 18:40:14 2020 +0800
+
+    added main-box for home page
+
+commit 3b827eccd919f7fb002920a093ab8c9cee592d9c
+Merge: 4fe845f 084278e
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 18:32:12 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 4fe845f6d6d295254cf0aa18c0efab616c8509f0
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 18:31:37 2020 +0800
+
+    changes to routes form takeQuiz
+
+commit 084278e26f77994c9c86f69a0648115918c84094
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 18:03:38 2020 +0800
+
+    remove takequiz nav link
+
+commit 2c9e62c7f89421c939218ff7a51a6c1cf8c1c51e
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 17:49:04 2020 +0800
+
+    Update base.html
+
+commit d51a839ccc0d6c6720811c8f5644b236e0191547
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 17:20:10 2020 +0800
+
+    change to question query
+
+commit 52d8cb00be8a1e922545836c75cac333f4c2834d
+Merge: 76e31af b4a7756
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 17:02:24 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 76e31af1851412378f012fa2f1450dca6a116b17
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 17:02:01 2020 +0800
+
+    added route for take quiz and profile
+
+commit b4a7756a3f2a42732e6ce0eef5a0a8263d73b5a0
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Fri May 22 14:30:22 2020 +0530
+
+    Update forms.py
+
+commit 966a1953666f3c3c0a2c4044a5218b32a36b9f11
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Fri May 22 14:26:11 2020 +0530
+
+    Update forms.py
+
+commit a4ad74ce4a754d10af4cfa5f695e3d5e23387407
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 14:59:21 2020 +0800
+
+    slight update to db and base to add functionality of profile and quiz selector pages
+
+commit 528fdc95559c23aee9b5a77340b790d20c284eb3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 14:42:21 2020 +0800
+
+    Added quiz details to model
+
+commit 997cd096bd3065cde10fbd3cd10e953371a4092c
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 14:39:39 2020 +0800
+
+    updated query and for loop in quiz selector and routes
+
+commit 29af624d94d3e9a284cb3620d2535d5e0925e147
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Fri May 22 11:13:23 2020 +0530
+
+    Update routes.py
+
+commit 753f4e551ebc413e1d215f90e801d5046ffd49a5
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Fri May 22 11:08:47 2020 +0530
+
+    Take Quiz Route
+
+commit 86b6592d8d2e101cf649a9dd4acbab046810511f
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Fri May 22 10:25:57 2020 +0530
+
+    Quiz Attempt Form= Added
+
+commit f29e14a2e9c7858e17ac8f445e378bc69347e7e7
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Fri May 22 11:52:18 2020 +0800
+
+    Create Acceptance Test.docx
+
+commit a4982901503d34b3d64daf8f853572eeffd5b19f
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 10:46:21 2020 +0800
+
+    deleting extra files, added model to database
+
+commit 2c038f5f9c80ea3e12f17e8ceb713fb9a8156de0
+Merge: fcdf1b1 f316b0e
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 10:35:29 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit fcdf1b173ea640a26b2102d073c93af38970b394
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 10:35:07 2020 +0800
+
+    rename of routes
+
+commit f316b0eec4da07c2c38ab14cf0c416247b618840
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Fri May 22 10:34:43 2020 +0800
+
+    Update README.txt
+
+commit ccf25567511a1a6eafa857ca052aef31eb434bc4
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 22 10:20:36 2020 +0800
+
+    fixed routes
+
+commit 37453820b99701c865bfdc1fb7916077f080a65a
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Wed May 20 14:02:41 2020 +0530
+
+    Update forms.py
+
+commit 1c7e976d0cd50a6c254227557485d7905a1b0ce5
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Wed May 20 14:00:50 2020 +0530
+
+    Quiz Creation and Que_Ans - PseudoCode only
+    
+    Add validation for Question and Answers form
+    delete the choices in Question and Answers - for now
+
+commit 2b790a4234c9422eccf86b99e376d8e6a12c390e
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Wed May 20 13:45:59 2020 +0530
+
+    Add delete Account and delete Quiz, check line 73 and 80
+
+commit 0c3d4894510b4809bbf05f08abf7a70ac0b7226d
+Author: TallyDurant <37503112+TallyDurant@users.noreply.github.com>
+Date:   Wed May 20 13:28:39 2020 +0530
+
+    Add QuizAttempt Model
+
+commit 54b2bcfafbfbba468d742de8d4ab9dd6ebe207bd
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Wed May 20 11:03:19 2020 +0800
+
+    creating of flask-admin page and quiz models
+
+commit 51262bafbdd37bd43fec84d858e4b2dd04984caa
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Wed May 20 05:24:42 2020 +0800
+
+    Minutes 3
+
+commit 17f166c5de93484f94426e2626c13d0ca2202b8f
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Tue May 19 14:25:02 2020 +0800
+
+    edited home.html
+
+commit 41d049d313b079db4b7b7d3b2cae241865685e70
+Merge: aa9382c f00b5db
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 23:16:35 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit aa9382c874c22b21c0a4161cbea1cc73f79105db
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 23:16:27 2020 +0800
+
+    Update main.css
+
+commit f00b5db1665e8efebcc5e28eadf75692ad694890
+Merge: 4ef6487 9615af8
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 20:02:20 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 4ef64874f01f2ebe46103f0fd7d69b4c88845ebb
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 19:59:28 2020 +0800
+
+    changed background colour for transbox. added bootstrap
+
+commit 9615af82406ef5cc8581c5e5f9a912528ebe497b
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 17:00:20 2020 +0800
+
+    login and register pages updated
+
+commit 9e1750addc9c6285ba08fa59df700ea2684ab0b0
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 11:30:07 2020 +0800
+
+    transbox and css fix
+
+commit 936c5653387a3f17254702b4f4c8fb1ff9f9f088
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 11:10:20 2020 +0800
+
+    line break for confirm password
+
+commit cf17b3cdfaca12699b28670b034750a78830717e
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 11:09:35 2020 +0800
+
+    fixed block content
+
+commit e8cecfbf302f293cf469466aeb040ee53e0f7da3
+Merge: 57bf9b8 0b14a7b
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 11:04:19 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 57bf9b88df4303fbf059631f1d0dbfbbb6a286b3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 11:04:11 2020 +0800
+
+    fixing routes
+
+commit 0b14a7bdc68784d7ac68d3d17f7050cfd05c7cfd
+Merge: 6f107d0 3d669f1
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 10:51:37 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 3d669f190c7912beb2fb6621a4c6320281fa3126
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 10:49:05 2020 +0800
+
+    fixing routes
+
+commit 6f107d0aeef4d76d83e3cc58afca68002495abdb
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 10:48:33 2020 +0800
+
+    updated README again
+
+commit 2323d05acdc093693549bfbd9397014b1888f01e
+Merge: 891b8d6 322e467
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 10:44:15 2020 +0800
+
+    Merge branch 'master' of https://github.com/lthomas21/Project2
+
+commit 891b8d61996bf6a8179b63b0bacd7371906819b9
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 10:43:47 2020 +0800
+
+    updated README to add flask install stuff
+
+commit 322e4677905ea30e7ca068aad71bd533d98b5f8f
+Merge: 1fa5036 bc5934d
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 10:37:39 2020 +0800
+
+    Merge branch 'FlaskLogin'
+
+commit 1fa50362364fff5695037df9a07e89afd0963f37
+Merge: 96de604 6a82465
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Mon May 18 10:20:23 2020 +0800
+
+    Merge branch 'FrontEnd'
+
+commit 6a82465491f14892743aa57539e595c7a24238f2
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Mon May 18 09:57:04 2020 +0800
+
+    updated base and index pages and added takeQuiz page. Added main.css styling
+
+commit 96de6044bbb9420c316add07772f48dc741d25e5
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 17 01:00:21 2020 +0800
+
+    Correct the typing error
+
+commit 188b487b8e16a6c0a88d48a5dc00da990ec7c5ae
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 17 00:56:15 2020 +0800
+
+    Minutes 1 and 2
+
+commit 89331defc505b102a9d607ca9700386c19d75d7a
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 16 22:27:25 2020 +0800
+
+    User stories
+
+commit da3cbc2113c5f446c27fb04f847ecc6537ae1e39
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sat May 16 18:17:21 2020 +0800
+
+    Scope of Work
+
+commit bc5934d7496078f76849bb9a12568b375de88038
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 15 13:58:30 2020 +0800
+
+    added a couple more pages for the app
+
+commit 2a2d221b94f0d4e0e35bf15cbd7b546592ed4b96
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Fri May 15 13:25:58 2020 +0800
+
+    sign up, login and logout Flask
+
+commit aecc229a5f9c2653ab7641706dd325a893ecb87d
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Thu May 14 11:56:47 2020 +0800
+
+    dreated register page and flask validators
+
+commit d6a19916f4c940139768b7b34328b9576e9dd7b3
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Wed May 6 17:39:30 2020 +0800
+
+    Login form with flask
+    
+    added the forms.py and loginFlask html page, for example of form with FLASK. modified routes and to suit
+
+commit cd579abf52e5f89debed999325725aa8de512de7
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Wed May 6 14:50:58 2020 +0800
+
+    initiated models and database
+    
+    created a base.html page to keep flow consistent, inititated the flask user model and database
+
+commit 3d983ddfaa09569b413a8c32f6543295af889dbd
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Wed May 6 12:37:42 2020 +0800
+
+    started Flask, organised folder structure
+
+commit e8f9b96bc68bb1032519946e66a32e7071d70b41
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Tue May 5 22:58:20 2020 +0800
+
+    Sign up HTML
+
+commit df37358f82c27a552c66399f33d6c3d046081aa3
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Tue May 5 20:42:16 2020 +0800
+
+    update js script
+
+commit b8e46ab94d09a4dc6d9d22fc522d6b50819e8087
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Tue May 5 20:13:05 2020 +0800
+
+    design for login page
+
+commit b1d8bdaebf4443068241e22c3f1428d90ba09a5b
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 3 11:03:04 2020 +0800
+
+    changes added
+
+commit f8a705734aa52ba36fd4eff4cc365f91ed9cd735
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Sun May 3 11:01:18 2020 +0800
+
+    pages to be created
+
+commit f8d5957561081ab1bdc67fee56fb786004e5a651
+Author: jasonlee2019 <53686738+jasonlee2019@users.noreply.github.com>
+Date:   Sun May 3 10:43:33 2020 +0800
+
+    login.html
+
+commit 7707a3a04dfa645e6fe890f660f0399c750f5a37
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 3 10:41:02 2020 +0800
+
+    Update README.txt
+
+commit c1d09613bca77dbf377498a16f1b80199565e109
+Author: gregoryedmonds <50955914+gregoryedmonds@users.noreply.github.com>
+Date:   Sun May 3 10:40:13 2020 +0800
+
+    Update README.txt
+
+commit 049fd668dd30d5626bfdc5786e19be1f28fb18c8
+Author: lthomas21 <62383422+lthomas21@users.noreply.github.com>
+Date:   Thu Apr 23 11:01:40 2020 +0800
+
+    Rename Readme.txt to README.txt
+
+commit 365024b2068107e77d344aa03a079d0556990d96
+Author: lthomas21 <lewis_thom@hotmail.com>
+Date:   Thu Apr 23 10:56:19 2020 +0800
+
+    add .gitignore

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block head %}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+</script>
+<script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart'] });     
+</script>
+<script>
+    var parameter = {{ data| tojson}};
+</script>
+
+{% endblock %}
+{% block content %}
+
+<div class="center-container">
+    <div class="form-box">
+        <h1> {{ user.username }}'s Profile Page</h1>
+        <h5>Quizzes completed</h5>
+        <p>
+            {% if quizcomp == Null %}
+            You haven't completed any quizzes!! <a href="{{ url_for('quizSelector')}}">Click here to select a quiz!</a>
+            {% else %}
+            {% for quizc in quizcomp %}
+            {% for quiz in quizs %}
+            {% if quizc.quiz_id == quiz.id %}
+            {{ quiz.quiz_name }} score of {{ quizc.score }} <br>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% endif %}
+            <a href="{{ url_for('delete_Account',username=current_user.username)}}">Delete Account</a>
+        </p>
+        <p>The mean of the quiz is {{mean}}</p></br>
+        <p>The standard deviation of the quiz is {{SD}}</p></br>
+        <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+        <script language="JavaScript">
+            function drawChart() {
+                // Define the chart to be drawn.
+                var data = google.visualization.arrayToDataTable(parameter);
+
+                var options = { title: 'Score for quiz' };
+
+                // Instantiate and draw the chart.
+                var chart = new google.visualization.ColumnChart(document.getElementById('container'));
+                chart.draw(data, options);
+            }
+            google.charts.setOnLoadCallback(drawChart);
+        </script>
+    </div>
+</div>
+
+
+
+{% endblock %}

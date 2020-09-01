@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<div class="center-container">
+    <div class="form-box">
+        <br>
+        <h1>Welcome to the Movie Quiz website!</h1>
+        <hr>
+        <h2>Think you know your movies?<br>Take one of our quizzes to find out!</h2>
+        <br>
+        <br>
+        <img src="{{url_for('static', filename='styles/popcorn.png')}}" alt="popcorn" width="150" height="150">
+        <br>
+        <br>
+        <br>
+        {% if current_user.is_anonymous %}
+        <h4><a href="{{ url_for('login') }}">Log in</a> or <a href="{{ url_for('register') }}">Register</a> to begin</h4>
+        {% else %}
+        <h4>You are logged in! Click <a href="{{ url_for('quizSelector') }}">here</a> to select a quiz</h4>
+        {% endif %}
+        <br>
+    </div>
+</div>
+
+{% endblock %}

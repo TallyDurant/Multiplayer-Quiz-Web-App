@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Assess Quiz
+{% endblock %}
+{% block content %}
+       <div class="center-container">
+            <div class="form-box">
+                <br>
+                <h1>Assess {{ quiz.quiz_name }} Quiz from {{ attempt.user_id }} </h1>
+                {% set x = [0] %}
+                {% for question in questions %}
+                  <p>The Question: {{ question.question }}<br>  
+                    Their Answer: {{ attempts[x[0]] }}  The Correct Answer: 
+                    {% for answer in answers %}
+                        {%if answer.questions == question.id %}
+                            {% if answer.correct == True %}
+                            {{ answer.answer }}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if x.append(x.pop() + 1) %}{% endif %}
+                {% endfor %}
+                <form action="" method="POST">
+                    {{ form.hidden_tag() }}
+                    <p>{{ form.score.label }}<br>
+                        {{ form.score(size=10)}}
+                    </p>
+                    {{ form.submit() }}
+            </div>
+        </div>
+{% endblock %}

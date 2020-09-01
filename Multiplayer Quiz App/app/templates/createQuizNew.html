@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+ {% block head%}
+
+        {# Import JQuery #}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+            /**
+             * Adjust the indices of form fields when removing items.
+             */
+            function adjustIndices(removedIndex) {
+                var $forms = $('.subform');
+
+                $forms.each(function(i) {
+                    var $form = $(this);
+                    var index = parseInt($form.data('index'));
+                    var newIndex = index - 1;
+
+                    if (index < removedIndex) {
+                        // Skip
+                        return true;
+                    }
+
+                    // Change ID in form itself
+                    $form.attr('id', $form.attr('id').replace(index, newIndex));
+                    $form.data('index', newIndex);
+
+                    // Change IDs in form inputs
+                    $form.find('input').each(function(j) {
+                        var $item = $(this);
+                        $item.attr('id', $item.attr('id').replace(index, newIndex));
+                        $item.attr('name', $item.attr('name').replace(index, newIndex));
+                    });
+                });
+            }
+
+            /**
+             * Remove a form.
+             */
+            function removeForm() {
+                var $removedForm = $(this).closest('.subform');
+                var removedIndex = parseInt($removedForm.data('index'));
+
+                $removedForm.remove();
+
+                // Update indices
+                adjustIndices(removedIndex);
+            }
+
+            /**
+             * Add a new form.
+             */
+            function addForm() {
+                var $templateForm = $('#question-_-form');
+
+                if (!$templateForm) {
+                    console.log('[ERROR] Cannot find template');
+                    return;
+                }
+
+                // Get Last index
+                var $lastForm = $('.subform').last();
+
+                var newIndex = 0;
+
+                if ($lastForm.length > 0) {
+                    newIndex = parseInt($lastForm.data('index')) + 1;
+                }
+
+                // Maximum of 10 subforms
+                if (newIndex > 10) {
+                    console.log('[WARNING] Reached maximum number of elements');
+                    return;
+                }
+
+                // Add elements
+                var $newForm = $templateForm.clone();
+
+                $newForm.attr('id', $newForm.attr('id').replace('_', newIndex));
+                $newForm.data('index', newIndex);
+
+                $newForm.find('input').each(function(idx) {
+                    var $item = $(this);
+
+                    $item.attr('id', $item.attr('id').replace('_', newIndex));
+                    $item.attr('name', $item.attr('name').replace('_', newIndex));
+                });
+
+                // Append
+                $('#subforms-container').append($newForm);
+                $newForm.addClass('subform');
+                $newForm.removeClass('is-hidden');
+
+                $newForm.find('.remove').click(removeForm);
+            }
+
+
+            $(document).ready(function() {
+                $('#add').click(addForm);
+                $('.remove').click(removeForm);
+            });
+        </script>
+
+        <style>
+            .is-hidden {
+                display: none;
+            }
+        </style>
+{% endblock %}
+{% block content %}
+    <div class="center-container">
+        <div class="form-box">
+            <h1>Create a New Quiz</h1>
+
+        
+
+        {# Show all subforms #}
+            <form id="question-form" action="" method="POST" role="form">
+                {{ form.hidden_tag() }}
+                <form method="POST" action="">
+                    {{ form.hidden_tag() }}
+                    <p> {{ form.quiz_name.label }}<br>
+                        {{ form.quiz_name(size=32) }}
+                    </p>
+                    <p> {{ form.quiz_details.label }}<br>
+                        {{ form.quiz_details(size=32) }}
+                    </p>
+                    <p>
+                    <div id="subforms-container">
+                        {% for subform in form.question %}
+                            <div id="question-{{ loop.index0 }}-form" class="subform" data-index="{{ loop.index0 }}">
+                                {{ subform.quizQuestion.label }}
+                                {{ subform.quizQuestion }}
+
+                                {{ subform.quizAnswer.label }}
+                                {{ subform.quizAnswer}}
+
+                                {{ subform.option1.label }}
+                                {{ subform.option1}}
+
+                                {{ subform.option2.label }}
+                                {{ subform.option2}}
+                                
+                                {{ subform.option3.label }}
+                                {{ subform.option3}}
+
+                                <a class="remove" href="#">Remove</a>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+
+                {% if form.errors %}
+                    {{ form.errors }}
+                {% endif %}
+
+                {# Form template #}
+                <div id="question-_-form" class="is-hidden" data-index="_">
+                    <label for="question-_-quizQuestion">Question</label>
+                    <input id="question-_-quizQuestion" name="question-_-quizQuestion" type="text" value="">
+
+                    <label for="question-_-quizAnswer">Quiz Answer</label>
+                    <input id="question-_-quizAnswer" name="question-_-quizAnswer" type="text">
+
+                    <label for="question-_-option1">Wrong Answer</label>
+                    <input id="question-_-option1" name="question-_-option1" type="text">
+
+                    <label for="question-_option2">Wrong Answer</label>
+                    <input id="question-_-option2" name="question-_-option2" type="text">
+
+                    <label for="question-_-option3">Wrong Answer</label>
+                    <input id="question-_-option3" name="question-_-option3" type="text">
+                    <a class="remove" href="#">Remove</a>
+                </div>
+                <a id="add" href="#">Add Question</a>
+
+                {# Show submitted data #}
+                {% if data is defined %}
+                    <p>
+                        Received data: 
+                        {{ data }}
+                    </p>
+                {% endif %}
+        </div>
+    </div>
+{% endblock  %}

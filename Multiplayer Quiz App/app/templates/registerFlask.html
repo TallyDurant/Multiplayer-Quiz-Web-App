@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content%}
+
+<div class="center-container">
+    <div class="form-box">
+        <br>
+        <h1>Register<br><i class="fa fa-fw fa-user-plus"></i>
+            <form action="" method="POST">
+            {{ form.hidden_tag() }}
+        </h1>
+            <p>
+                {{ form.username.label }}<br>
+                {{ form.username(size=32) }}
+                {% for error in form.username.errors %}
+                <span> [{{ error }}] </span>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.email.label }}<br>
+                {{ form.email(size=32) }}
+                {% for error in form.email.errors %}
+                <span> [{{ error }}] </span>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.password.label }} <br>
+                {{ form.password(size=32) }}
+                {% for error in form.password.errors %}
+                <span> [{{ error }}] </span>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.confirm_password.label }} <br>
+                {{ form.confirm_password(size=32) }}
+                {% for error in form.confirm_password.errors %}
+                <span> [{{ error }}] </span>
+                {% endfor %}
+            </p>
+            <p> {{ form.submit() }}</p>
+        </form>
+        <p>Already have an account? <a href="{{ url_for('login') }}">Log in</a></p>
+    </div>
+</div>
+
+{% endblock %}

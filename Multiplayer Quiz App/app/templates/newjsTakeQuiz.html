@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+Take Quiz
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <div id="quiz"></div>
+    <div class="button-container">
+        <button id="submit">Submit</button>
+    </div>
+    <div style="display: none">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <div id="results">{{ form.jsonString(class="json") }} {{ form.submit(class="submit") }} </div>
+        </form>
+    </div>
+    <script>
+        var myQuestions = {{ ques|safe }};
+    </script>
+    <script defer src="{{url_for('static', filename='js/newquiz.js')}}"></script>
+</body>
+
+{% endblock %}

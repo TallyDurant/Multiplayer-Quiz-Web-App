@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+Quiz Selector
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <main>
+        <div class="grid-container">
+            <div class="question">
+                <h1>Choose a quiz that you would like to complete!</h1>
+            </div>
+            {% for quiz in quizzes %}
+            <div class="box0">
+                <h2>{{ quiz.quiz_name }}</h2>
+                {% if quiz.quiz_details != none %}
+                <p>{{ quiz.quiz_details }}
+                {% endif%}
+                <p>
+                    <a href="/takeQuiz/{{ quiz.id }}"><button class="start-btn btn">Take this Quiz</button></a>
+                    {% if current_user.is_admin %}
+                        <a href="{{ url_for('delete_Quiz',quiz_id=quiz.id)}}">Delete this Quiz</a>
+                    {% endif %}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+    <script defer src="{{url_for('static', filename='js/quiz.js')}}"></script>
+</body>
+
+
+{% endblock %}

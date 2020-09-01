@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+Admin Home
+{% endblock %}
+{% block content %}
+<div class="center-container">
+            <div class="form-box">
+    <h1>Quiz's to be Assessed</h1>
+    {% for attempt in attempts %}
+        <div>   
+                {% for user in users%}
+                    {% if attempt.user_id == user.id %}
+                        {{ user.username }}
+                    {% endif %}
+                {% endfor %}
+                {% for quiz in quizzes %}
+                    {% if attempt.quiz_id == quiz.id %}
+                        {{ quiz.quiz_name }}
+                    {% endif %}
+                {% endfor %}
+            <a href="/assess/{{attempt.id}}">Mark Quiz</a>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

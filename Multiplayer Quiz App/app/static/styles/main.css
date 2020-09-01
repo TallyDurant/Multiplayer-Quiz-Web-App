@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;"
+}
+
+/* navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+}
+
+/* 'Movie Quiz' title' */
+.bar-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.nav-links li:hover {
+    background: #555;
+}
+
+/* responsive functionality */
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+/* container for quiz selector quizzes */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    background: white;
+}
+
+/* container for question */
+.question {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-column: span 2;
+    background: lightblue;
+}
+
+/* boxes for holding different elements */
+.box0 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row: span 1; 
+    grid-column: span 2;
+    background: lightcyan;
+}
+
+.box1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row: span 2; 
+    background: lightcyan;
+}
+
+.box2 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row: span 2; 
+    background: lightcyan; 
+}
+
+.box3 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row: span 2; 
+    background: lightcyan;    
+}
+
+.box4 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-row: span 2; 
+    background: lightcyan;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+ /* box for opacity that holds the p elements */
+ .form-box {
+    margin: 30px 0px;
+    text-align: center;
+    background-color: #FFFACD;
+    opacity: 0.95;
+    width: 40vw;
+    border-radius: 20px;
+ }
+
+ /* styles for taking quiz */
+  #quiz {
+    background-color: white;
+  }
+
+  .button-container {
+    background-color: white;
+  }
+  
+  #results {
+    background-color: white;
+  }
+
+  .start-btn {
+      background-color: lightgreen;
+  }

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+Take Quiz
+{% endblock %}
+
+{% block content %}
+
+<body>
+    <h1> {{ quiz.quiz_name }}</h1>
+	<form action = "" method = 'POST'>
+        <div class="grid-container">
+            <div class="question">
+            {% for question in questions %}
+                <h1>{{ question.question }}</h1>
+            {% endfor %}
+            </div>
+            {% for answer in answers %}
+            <p>{{ answer.answer }}</p>
+            {% endfor %}
+            <div class="box1">
+                A:{{ question.option1 }}
+            </div>
+            <div class="box2">
+                B:{{question.option2}}
+            </div>
+            <div class="box3">
+                C:{{question.option3}}
+            </div>
+            <div class="box4">
+                D:{{question.option4}}
+            </div>
+			<div>
+			<button onclick="myFunction()" type="button" name="questionform">Submit Quiz</button>
+                <p>{{ form.submit() }}</p>
+			
+			
+        </div>
+		</form>
+</body>
+
+{% endblock %}
